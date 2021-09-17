@@ -1,8 +1,9 @@
-h1{
+.content h1{
     color: blue;
+    position: relative;
 }
 
-h3 {
+.clickbait h3 {
     margin-top: 0px;
     margin-bottom: 10px;
     font-family: sans-serif;
@@ -19,4 +20,17 @@ h3 {
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: rainbow;
+    position: relative;
 }
+
+/*
+#lmao {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
